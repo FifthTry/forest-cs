@@ -1,0 +1,8 @@
+-- import: fpm
+
+-- fpm.package: fifthtry.github.io/color-doc
+zip: github.com/fifthtry/color-doc/archive/refs/heads/main.zip
+
+-- fpm.dependency: fifthtry.github.io/typography as tp
+-- fpm.dependency: fifthtry.github.io/color-doc as cd
+
