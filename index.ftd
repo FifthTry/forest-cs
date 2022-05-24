@@ -1,5 +1,6 @@
 -- import: fpm
 -- import: cd
+-- import: fifthtry.github.io/color-doc/color-ui as cu
 
 -- ftd.color base-:
 light: #131a13
@@ -359,6 +360,9 @@ surface-alt: $main
 glass: $main
 
 
+
+-- cu.color-ui:
+color: $fpm.color
 
 -- cd.color-display:
 color: $fpm.color
