@@ -1,6 +1,56 @@
 -- import: fpm
 -- import: cd
 -- import: fifthtry.github.io/color-doc/color-ui as cu
+-- import: fifthtry.github.io/package-doc/doc as pd
+
+
+
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+
+-- ftd.column:
+width: fill
+padding-horizontal: 50
+padding-vertical: 20
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+
+
+-- pd.package: Forest CS
+name: fifthtry.github.io/forest-cs
+
+Forest CS is a color schemes which can be used to change color scheme of web 
+packages via using `FTD` lang.
+
+To use `forest-cs` color scheme on your web package, add below into `FPM.ftd` file:
+
+-- cb.code:
+lang: ftd
+
+\-- fpm.dependency: fifthtry.github.io/forst-cs c as forest
+
+
+-- tf.markdown:
+
+Import `forest` into `FPM/config.ftd` file.
+
+-- cb.code:
+lang: ftd
+
+\-- import: forest
+
+
+
+
+
+
+
+
+
 
 -- ftd.color base-:
 light: #131a13
