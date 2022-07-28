@@ -14,7 +14,7 @@ if: $ftd.device == mobile
 
 -- ftd.column:
 width: fill
-padding-horizontal: 50
+padding-horizontal: 20
 padding-vertical: 20
 padding-horizontal if $is-mobile: 20
 background-color: $fpm.color.main.background.base
@@ -46,6 +46,52 @@ lang: ftd
 
 
 
+-- color-display:
+color: $fpm.color
+minimize: true
+
+
+
+
+
+
+-- ftd.row color-display:
+fpm.color-data color:
+optional boolean minimize:
+width: fill
+
+--- all-color-display:
+color: $color
+minimize: $minimize
+
+
+
+
+
+
+
+
+
+-- ftd.column all-color-display:
+fpm.color-data color:
+optional boolean minimize: 
+background-color: $color.main.background.base
+width: fill
+
+--- ftd.row:
+width: fill
+
+--- cu.color-ui:
+color: $color
+minimize: $minimize
+
+--- container: ftd.main
+
+--- ftd.row:
+width: fill
+
+--- cd.color-display-data:
+color: $color
 
 
 
@@ -411,8 +457,3 @@ glass: $main
 
 
 
--- cu.color-ui:
-color: $fpm.color
-
--- cd.color-display:
-color: $fpm.color
