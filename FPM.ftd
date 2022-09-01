@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/forest-cs
 zip: github.com/fifthtry/forest-cs/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/forest-cs/main
+download-base-url: https://raw.githubusercontent.com/fifthtry/forest-cs/main
 
 -- fpm.dependency: fifthtry.github.io/color-doc as cd
 -- fpm.dependency: fifthtry.github.io/package-doc as pd
