@@ -79,15 +79,15 @@ minimize: true
 
 
 -- ftd.color base-:
-light: #131a13
+light: #e5e6e2
 dark: #131a13
 
 -- ftd.color step-1-:
-light: #182517
+light: #293434
 dark: #182517
 
 -- ftd.color step-2-:
-light: #233221
+light: #7c9e9d
 dark: #233221
 
 -- ftd.color overlay-:
@@ -95,7 +95,7 @@ light: rgba(0, 0, 0, 0.8)
 dark: rgba(0, 0, 0, 0.8)
 
 -- ftd.color code-:
-light: #2B303B
+light: #eaeaea
 dark: #2B303B
 
 -- ftd.background-colors background-:
@@ -114,7 +114,7 @@ light: #919192
 dark: #919192
 
 -- ftd.color text-:
-light: #9ea89e
+light: #556f68
 dark: #9ea89e
 
 -- ftd.color text-strong-:
@@ -242,28 +242,28 @@ border: $cta-tertiary-border-
 text: $cta-tertiary-text-
 
 -- ftd.color cta-danger-base-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #f9e4e1
+dark: #f9e4e1
 
 -- ftd.color cta-danger-hover-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #f1bdb6
+dark: #f1bdb6
 
 -- ftd.color cta-danger-pressed-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #d46a63
+dark: #d46a63
 
 -- ftd.color cta-danger-disabled-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #faeceb
+dark: #faeceb
 
 -- ftd.color cta-danger-focused-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #d97973
+dark: #d97973
 
 -- ftd.color cta-danger-border-:
-light: #FFFBFE
-dark: #1C1B1F
+light: #e9968c
+dark: #E9968C
 
 -- ftd.color cta-danger-text-:
 light: #FFFBFE
