@@ -6,8 +6,6 @@ Inspired by the lush greens and earthy browns of a forest, this color scheme off
 
 The Forest Color Scheme Package is perfect for nature-inspired designs, from logos to websites to product packaging. It is especially ideal for projects targeting eco-conscious consumers or those focused on sustainability.
 
-Not only does this color scheme offer versatility in your designs, but it is also easy to implement. The package is available in CSS, SCSS, and other popular design formats, making it simple to integrate into your existing workflow.
-
 So why settle for generic color palettes when you can bring the beauty of the forest to your designs? Try the Forest Color Scheme Package today and see the difference it can make.
 
 <img src="forest.png"  width="30%" height="60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="forest-dark.png"  width="30%" height="60%">
