@@ -343,8 +343,9 @@ padding-top.px: 60
 -- ftd.column:
 width: fill-container
 
+-- ftd.desktop:
+
 -- ftd.row:
-if: { ftd.device == "desktop" }
 width: fill-container
 spacing.fixed.px: 34
 
@@ -386,8 +387,12 @@ childrens: $color-scheme.rightbar
 
 -- end: ftd.row
 
+-- end: ftd.desktop
+
+
+-- ftd.mobile:
+
 -- ftd.column:
-if: { ftd.device == "mobile" }
 width: fill-container
 spacing.fixed.px: 34
 
@@ -425,6 +430,8 @@ childrens: $color-scheme.rightbar
 -- end: ftd.column
 
 -- end: ftd.column
+
+-- end: ftd.mobile
 
 -- end: ftd.column
 
