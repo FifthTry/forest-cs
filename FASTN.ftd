@@ -1,7 +1,6 @@
 -- import: fastn
 
 -- fastn.package: fifthtry.github.io/forest-cs
-download-base-url: https://raw.githubusercontent.com/fifthtry/forest-cs/main
 
 -- fastn.dependency: fifthtry.github.io/code-block
 -- fastn.dependency: fastn-community.github.io/inter-typography
